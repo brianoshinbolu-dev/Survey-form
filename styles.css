@@ -1,0 +1,47 @@
+h1, p {
+    text-align: center;
+}
+
+body {
+    background-color: #3983b4;
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+    color: azure;
+    font-weight: bold;
+    
+}
+
+form {
+    margin: 0 auto;
+    width: auto;
+    max-width: 600px;
+    padding-bottom: 2em;
+}
+
+label {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+#name, #email, #age, #roles, #friends, #choose, #check, #comment {
+    margin: 30px 0px 30px 0px;
+}
+
+input, textarea, select{
+    width: 100%;
+    min-height: 2em;
+    vertical-align: middle;
+    border-radius: 20px;
+    
+}
+
+input[type="checkbox"], input[type="radio"] {
+    width: unset;
+}
+
+input[type="submit"] {
+    width: 50%;
+    margin: 0 auto;
+    display: block;
+}
